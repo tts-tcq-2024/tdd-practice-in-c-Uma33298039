@@ -1,13 +1,13 @@
 bool isEmptyStr(const char*input)
 {
   if (input == NULL || input[0] == '\0') {
-        return TRUE; // The string is empty
+        return true; // The string is empty
     }
-  return FALSE;
+  return false;
 }
 int add (const char*input)
 {
-  if(isEmptyStr(input) ==TRUE)
+  if(isEmptyStr(input) ==true)
 {
   return 0;
 }
