@@ -1,7 +1,15 @@
-int add (const char*input) 
+boolean isEmptyStr(const char*input)
 {
   if (input == NULL || input[0] == '\0') {
-        return 0; // The string is empty
+        return TRUE; // The string is empty
     }
-  return -1;
+  return FALSE;
+}
+int add (const char*input)
+{
+  if(isEmptyStr(input) ==TRUE)
+{
+  return 0;
+}
+  return 1;
 }
