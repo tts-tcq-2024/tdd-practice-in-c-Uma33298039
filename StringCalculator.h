@@ -1,6 +1,6 @@
 #include <string.h>
 #include<stdlib.h>
-Bool isemptystring(const char* value)
+bool isemptystring(const char* value)
 {
     if (value == NULL || value[0] == '\0')
     {
